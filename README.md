@@ -1,9 +1,9 @@
-#一键
+# 一键
 
 wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://raw.githubusercontent.com/knowledgeablelmh/dd/main/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh && bash ~/Network-Reinstall-System-Modify.sh
 
 
-#默认账户
+# 默认账户
 
 通常，使用自带镜像，或者您的镜像作者未明确说明系统的用户名和密码的情况下。
 
