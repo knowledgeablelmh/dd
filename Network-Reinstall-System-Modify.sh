@@ -92,7 +92,7 @@ echo -e "\n"
 sleep 1s
 
 CXTDTYPE=`fdisk -l | grep -o gpt | head -1`
-if [ $CXTDTYPE == "gpt" ] || [ $CXTDTYPE == "GPT" ];then
+if [ "$CXTDTYPE" == "gpt" ] || [ "$CXTDTYPE" == "GPT" ];then
 echo "UEFI..."
 CXTisUEFI="是(True)"
 else
@@ -325,7 +325,7 @@ echo "                                                                "
     0) exit 0;;
     *) echo "Wrong input!"; exit 1;;
     esac
-fi
+    fi
 
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\033[35m 启动 安装 \033[0m"
